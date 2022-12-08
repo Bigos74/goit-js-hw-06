@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  margin-right: 4px;
+}
+
+.image {
+  width: 320px;
+  height: 200px;
+}

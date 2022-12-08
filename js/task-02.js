@@ -13,7 +13,7 @@ const liElements = ingredients.forEach(ingredient => {
   liElement.classList.add('item');
   liElement.textContent = ingredient;
   fragment.appendChild(liElement);
-  listElement.appendChild(liElement);
+  listElement.append(liElement);
 });
 
 listElement.appendChild(fragment);
