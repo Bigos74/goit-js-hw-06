@@ -5,8 +5,7 @@ const refs = {
 
 const onInputBlur = event => {
   const inputValueLength = event.target.value.length;
-  const isLengthCorrect =
-    refs.nameLength.dataset.length === inputValueLength.toString();
+  const isLengthCorrect = +refs.nameLength.dataset.length === inputValueLength;
   if (inputValueLength === 0) {
     refs.input.classList.remove('invalid');
     refs.input.classList.remove('valid');
